@@ -31,11 +31,10 @@ class AddSubtract implements Serializable {
   }
 
   Integer geta() {
-    return a
+    return (this.a)
   }
   
   Integer getb() {
-    return b
+    return (this.b)
   }
 }
-
