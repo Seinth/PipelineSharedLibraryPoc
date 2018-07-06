@@ -14,7 +14,8 @@ class AddSubtract implements Serializable {
   }
 
 
-  String return (this.sum > 10) ? "yes" : "no"
+  String isSumBiggerThan10() {
+    return (this.sum > 10) ? "yes" : "no"
   }
 
   String isSumBiggerThan100() {
