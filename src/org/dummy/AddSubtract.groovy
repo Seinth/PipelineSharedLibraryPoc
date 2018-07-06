@@ -6,9 +6,9 @@ class AddSubtract implements Serializable {
   private Integer sum
   private Integer sub
   
-  AddSubtract(a, b) {
-    this.a=a
-    this.b=b
+  AddSubtract(List<Integer> numbers) {
+    this.a=numbers[0]
+    this.b=numbers[1]
     this.sum=a+b
     this.sub=a-b
   }
