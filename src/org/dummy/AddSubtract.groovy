@@ -1,10 +1,10 @@
 package org.dummy
 
 class AddSubtract implements Serializable {
-  private Integer a
-  private Integer b
-  private Integer sum
-  private Integer sub
+  private int a
+  private int b
+  private int sum
+  private int sub
   
   AddSubtract(List<Integer> numbers) {
     this.a=numbers[0]
@@ -23,7 +23,7 @@ class AddSubtract implements Serializable {
   }
 
   String isSubBiggerThan10() {
-    return (this.sum > 10) ? "yes" : "no"
+    return (this.sub > 10) ? "yes" : "no"
   }
 
   String isSubBiggerThan100() { 
