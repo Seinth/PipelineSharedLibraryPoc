@@ -30,11 +30,11 @@ class AddSubtract implements Serializable {
   }
 
   def geta() {
-    return this.a
+    return this.a;
   }
   
   def getb() {
-    return this.b
+    return this.b;
   }
 }
 
