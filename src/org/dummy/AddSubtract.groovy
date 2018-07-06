@@ -30,12 +30,12 @@ class AddSubtract implements Serializable {
     return (this.sub > 100) ? "yes" : "no"
   }
 
-  Integer geta() {
-    return this.a
+  Integer showa() {
+    return a
   }
   
-  Integer getb() {
-    return this.b
+  Integer showb() {
+    return b
   }
 }
 
