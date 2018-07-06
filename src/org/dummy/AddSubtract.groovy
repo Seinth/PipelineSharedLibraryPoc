@@ -13,27 +13,27 @@ class AddSubtract implements Serializable {
     this.sub=a-b
   }
 
-  isSumBiggerThan10() {
+  def isSumBiggerThan10() {
     return (this.sum > 10) ? "yes" : "no";
   }
 
-  isSumBiggerThan100() {
+  def isSumBiggerThan100() {
     return (this.sum > 100) ? "yes" : "no";
   }
 
-  isSubBiggerThan10() {
+  def isSubBiggerThan10() {
     return (this.sum > 10) ? "yes" : "no";
   }
 
-  isSubmBiggerThan100() { 
+  def isSubmBiggerThan100() { 
     return (this.sub > 100) ? "yes" : "no";
   }
 
-  geta() {
+  def geta() {
     return this.a
   }
   
-  getb() {
+  def getb() {
     return this.b
   }
 }
