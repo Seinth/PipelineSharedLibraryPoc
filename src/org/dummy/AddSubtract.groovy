@@ -29,12 +29,4 @@ class AddSubtract implements Serializable {
   String isSubBiggerThan100() { 
     return (this.sub > 100) ? "yes" : "no"
   }
-
-  Integer geta() {
-    return (this.a)
-  }
-  
-  Integer getb() {
-    return (this.b)
-  }
 }
